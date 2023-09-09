@@ -11,6 +11,7 @@ chatbot/alpaca-lora
 *.txt
 *.pdf
 *.hwp
+*.docx
 
 # C extensions
 *.so
