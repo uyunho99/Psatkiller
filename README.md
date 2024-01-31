@@ -2,6 +2,8 @@
 
 ## Description
 
+![Result of Experiments](./Image/result.png)
+
 This project investigates the performance of OpenAI's ChatGPT, particularly GPT-4, in Korean language examinations via prompt engineering. We want to see how well GPT-4 can perform in a non-English context, particularly in logic-based examinations such as the PSAT.
 
 ## Method
@@ -15,8 +17,6 @@ The method involved a step-by-step approach:
 | 3    | Custom Instruction Prompts | Making and adding new prompts for specific problem types that were challenging.                             |
 
 ## Results
-
-![Result of Experiments](./Image/result.png)
 
 The initial basic prompting method surprisingly scored 75/100. However, to reach the passing score(85/100), further improvement was needed. The research-based prompts showed some improvement, especially in the zero-shot chain-of-thought method(82.5/100). Nevertheless, the custom instruction prompts are needed to reach the high level of logical reasoning. The custom instruction prompts, focusing on logical reasoning and contextual analysis for specific problem types, ultimately enabled GPT-4 to achieve a score of 90/100.
 
